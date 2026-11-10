@@ -1,0 +1,198 @@
+kyogai:
+  kill-demons-ky:
+    required-amount: 5
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  do-tutorial-ky:
+    permission: "demonslayer.tutorial"
+    description: "Use the command /tutorial."
+  vote-ky:
+    permission: "voteplugin.hasvoted"
+    description: "Vote for the server."
+  mission-tiers-ky:
+    tier: 5
+    description: "Level up all missions to tier <tier>."
+  kyogai-ky:
+    required-amount: 1
+    description: "Defeat Kyogai."
+
+rui:
+  mission-tiers-ru:
+    tier: 10
+    description: "Level up all missions to tier <tier>."
+  kill-demons-ru:
+    required-amount: 100
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  claim-land-ru:
+    unit: "Claim"
+    description: "Claim a Piece of land."
+  rui-ru:
+    required-amount: 1
+    description: "Defeat Rui."
+
+mukago:
+  mission-tiers-mu:
+    tier: 20
+    description: "Level up all missions to tier <tier>."
+  has-rank-mu:
+    permission: "rank.5"
+    description: "Has rank 5."
+  kill-demons-mu:
+    required-amount: 500
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  kill-demons-in-warzone-mu:
+    required-amount: 50
+    unit: "Kills"
+    description: "Kill <amount> Demons in the Warzone."
+  kill-endermen-mu:
+    required-amount: 20
+    unit: "Kills"
+    description: "Kill <amount> Endermen."
+  mukago-mu:
+    required-amount: 1
+    description: "Defeat Mukago."
+
+wakurabo:
+  mission-tiers-wa:
+    tier: 50
+    description: "Level up all missions to tier <tier>."
+  has-rank-wa:
+    permission: "rank.6"
+    description: "Has rank 6."
+  kill-demons-wa:
+    required-amount: 1000
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  kill-demons-in-warzone-wa:
+    required-amount: 100
+    unit: "Kills"
+    description: "Kill <amount> Demons in the Warzone."
+  kill-unique-players-wa:
+    required-amount: 10
+    unit: "Kills"
+    description: "Kill <amount> Unique Players."
+  wakurabo-wa:
+    required-amount: 1
+    description: "Defeat Wakurabo."
+
+rokuro:
+  mission-tiers-ro:
+    tier: 75
+    description: "Level up all missions to tier <tier>."
+  has-rank-ro:
+    permission: "rank.7"
+    description: "Has rank 7."
+  kill-demons-ro:
+    required-amount: 1500
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  kill-demons-in-warzone-ro:
+    required-amount: 250
+    unit: "Kills"
+    description: "Kill <amount> Demons in the Warzone."
+  kill-unique-players-ro:
+    required-amount: 25
+    unit: "Kills"
+    description: "Kill <amount> Unique Players."
+  rokuro-ro:
+    required-amount: 1
+    description: "Defeat Rokuro."
+
+enmu:
+  mission-tiers-en:
+    tier: 100
+    description: "Level up all missions to tier <tier>."
+  has-rank-en:
+    permission: "rank.8"
+    description: "Has rank 8."
+  kill-demons-en:
+    required-amount: 2500
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  kill-demons-in-warzone-en:
+    required-amount: 500
+    unit: "Kills"
+    description: "Kill <amount> Demons in the Warzone."
+  kill-demons-with-bow-en:
+    required-amount: 100
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  kill-witches-en:
+    required-amount: 25
+    unit: "Kills"
+    description: "Kill <amount> Witches."
+  kill-creepers-en:
+    required-amount: 100
+    unit: "Kills"
+    description: "Kill <amount> Creepers."
+  enmu-en:
+    required-amount: 1
+    description: "Defeat Enmu."
+
+kaigaku:
+  mission-tiers-ka:
+    tier: 125
+    description: "Level up all missions to tier <tier>."
+  has-rank-ka:
+    permission: "rank.9"
+    description: "Has rank 9."
+  kill-demons-ka:
+    required-amount: 5000
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  kill-demons-in-warzone-ka:
+    required-amount: 500
+    unit: "Kills"
+    description: "Kill <amount> Demons in the Warzone."
+  kill-demons-with-bow-ka:
+    required-amount: 250
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  kill-endermen-ka:
+    required-amount: 75
+    unit: "Kills"
+    description: "Kill <amount> Endermen."
+  kill-magmacubes-ka:
+    required-amount: 25
+    unit: "Kills"
+    description: "Kill <amount> Magma Cubes."
+  kaigaku-ka:
+    required-amount: 1
+    description: "Defeat Kaigaku."
+
+gyutaro:
+  mission-tiers-gy:
+    tier: 150
+    description: "Level up all missions to tier <tier>."
+  has-rank-gy:
+    permission: "rank.10"
+    description: "Has rank 10."
+  kill-demons-gy:
+    required-amount: 10000
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  kill-demons-in-warzone-gy:
+    required-amount: 1000
+    unit: "Kills"
+    description: "Kill <amount> Demons in the Warzone."
+  kill-demons-with-bow-gy:
+    required-amount: 500
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  kill-endermen-gy:
+    required-amount: 100
+    unit: "Kills"
+    description: "Kill <amount> Endermen."
+  kill-magmacubes-gy:
+    required-amount: 50
+    unit: "Kills"
+    description: "Kill <amount> Magma Cubes."
+  kill-slimes-gy:
+    required-amount: 25
+    unit: "Kills"
+    description: "Kill <amount> Slimes."
+  gyutaro-gy:
+    required-amount: 1
+    description: "Defeat Gyutaro."

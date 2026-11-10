@@ -1,0 +1,71 @@
+kyogai:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20
+
+rui:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20
+
+mukago:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20
+
+wakurabo:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20
+
+rokuro:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20
+
+enmu:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20
+
+kaigaku:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20
+
+gyutaro:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20

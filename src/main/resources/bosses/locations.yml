@@ -1,0 +1,11 @@
+boss-world: "quest_world"
+spawn-world: "spawn_world"
+spawn-coords: [ 0, 0, 0 ]
+
+# The boss will spawn as soon as the user reaches this distance away from the spawn location of the boss.
+range: 75
+
+arena-locations:
+  location-1:
+    boss-spawn-coords: [ 0, 0, 0 ]
+    user-spawn-coords: [ 0, 0, 0 ]

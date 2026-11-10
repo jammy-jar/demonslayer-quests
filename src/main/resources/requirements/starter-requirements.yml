@@ -1,0 +1,10 @@
+urokodaki-npc-id: 10
+
+main-starter:
+  visit-urokodaki:
+    required-amount: 1
+    unit: "Visit"
+    description: "Visit Urokodaki."
+  vote:
+    permission: "voteplugin.hasvoted"
+    description: "Vote for the server."

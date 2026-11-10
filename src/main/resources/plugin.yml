@@ -1,0 +1,33 @@
+name: Quests
+version: '${project.version}'
+main: me.jammy.quests.OasisQuests
+api-version: 1.19
+depend: [ Vault, DemonSlayer, LuckPerms, Citizens ]
+softdepend: [ PlaceholderAPI, Lands, CoreProtect ]
+
+commands:
+  quests:
+    description: Main command for the Quests plugin!
+    usage: /<command>
+    permission: quests.default
+    aliases: [ q ]
+
+permissions:
+  quests.default:
+    description: Allows you to use general Quests commands.
+    default: true
+  quests.admin:
+    description: Allows you to use admin commands.
+    default: op
+  quests.dailys.limit.<amount>:
+    description: Sets the limit for the amount of Daily's a player can use.
+    default: op
+  quests.missions.limit.<amount>:
+    description: Sets the limit for the amount of Mission's a player can use.
+    default: op
+  quests.specials.limit.<amount>:
+    description: Sets the limit for the amount of Special's a player can use.
+    default: op
+  quests.special.<quest>:
+    description: Allows users to do given special quest.
+    default: op

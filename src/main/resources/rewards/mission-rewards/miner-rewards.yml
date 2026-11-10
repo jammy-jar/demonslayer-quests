@@ -1,0 +1,13 @@
+default: # Reward received if there is not a unique reward for a given level.
+  expression: 'base + (level ^ 2)' # Base is the value of 'eco' or 'exp' in the config.
+  eco: 100 # Amount of money the player gets as a reward.
+  exp: 100 # Amount of experience the player gets as a reward.
+
+level-1: # Add unique rewards for specific levels.
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 10

@@ -1,0 +1,76 @@
+season-3:
+  player-kill-s3:
+    required-amount: 10
+    unit: "Kills"
+    description: "Kill <amount> Players."
+  demon-kill-s3:
+    required-amount: 250
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  playtime-s3: # In minutes.
+    required-amount: 120
+    unit: "Minutes"
+    description: "Play for <amount> <unit>."
+  xp-s3:
+    required-amount: 10000
+    unit: "XP"
+    description: "Collect <amount> <unit>."
+  mission-tiers-s3:
+    tier: 5
+    description: "Level up all missions to tier <tier>."
+
+adventurer-master:
+  # Adventurer tier 15+ requirement hardcoded.
+  village-visit-am:
+    required-amount: 8
+    unit: "Visits"
+    description: "Visit all <amount> NPCs."
+  travel-am:
+    required-amount: 20000
+    unit: "Blocks"
+    description: "Travel <amount> <unit>."
+  brew-speed-am:
+    required-amount: 100
+    unit: "Speed Potions"
+    description: "Brew <amount> <unit>."
+  adventurer-tier-am:
+    description: "Level up Adventurer mission to tier 15."
+
+slayer:
+  player-kill-sl:
+    required-amount: 15
+    unit: "Kills"
+    description: "Kill <amount> Players."
+  demon-kill-sl:
+    required-amount: 1000
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  nichirin-forge-sl:
+    required-amount: 5
+    unit: "Nichirins"
+    description: "Forge <amount> <unit>."
+  brew-strength-sl:
+    required-amount: 100
+    unit: "Strength Potions"
+    description: "Brew <amount> <unit>."
+
+august-special:
+  player-kill-as:
+    required-amount: 25
+    unit: "Kills"
+    description: "Kill <amount> Players."
+  demon-kill-as:
+    required-amount: 1500
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+  brew-as:
+    required-amount: 500
+    unit: "Potions"
+    description: "Brew <amount> <unit>."
+  travel-as:
+    required-amount: 25000
+    unit: "Blocks"
+    description: "Blocks <amount> <unit>."
+  mission-tiers-as:
+    tier: 10
+    description: "Level up all missions to tier <tier>."

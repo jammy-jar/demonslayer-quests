@@ -1,0 +1,108 @@
+max-level: 30 # This is the maximum level all missions can go to.
+
+adventurer: # Measured in blocks travelled (meters).
+  description: "Travel a lot."
+  unit: "Meters"
+  system: 'expression' # Either 'expression' or 'custom'.
+  expression: '128 * 1.35 ^ (level - 1)' # Ignore this if you selected 'custom'.
+  # This is the requirement amount to level up your mission quests.
+  custom-requirements: # Ignore this if you selected 'expression'.
+    level-1: 100
+    level-2: 250
+    # Add for as many levels as you like. Make sure to use the format 'level-<level number>' for the key.
+
+alchemist: # Measured in potions brewed.
+  description: "Brew potions."
+  unit: "Potions"
+  system: 'expression'
+  expression: 'level ^ 2'
+
+breeding: # Measured in mobs bred (only counts one when 2 are bred together).
+  description: "Breed mobs."
+  unit: "Mobs"
+  system: 'expression'
+  expression: 'level ^ 2'
+
+enchanter: # Measured in items enchanted.
+  description: "Enchant items."
+  unit: "Items Enchanted"
+  system: 'expression'
+  expression: 'level ^ 2'
+
+experience: # Measured in XP Orbs gathered.
+  description: "Collect XP."
+  unit: "XP"
+  system: 'expression'
+  expression: '128 * 1.35 ^ (level - 1)'
+
+farmer: # Measured in crops harvested (only counts once for multi-harvest crops like carrots).
+  description: "Harvest crops."
+  unit: "Crops"
+  system: 'expression'
+  expression: '32 * 1.4 ^ (level - 1)'
+
+fisher: # Measured in items caught when fishing (includes catching special items like enchant books etc.).
+  description: "Fish."
+  unit: "Catches"
+  system: 'expression'
+  expression: '5 * level ^ 2'
+
+miner: # Measured in stone-like blocks broken (includes stone, deepslate, tuff, and more).
+  description: "Break stone, or similar, blocks."
+  unit: "Blocks"
+  system: 'expression'
+  expression: '32 * 1.5 ^ (level - 1)'
+
+playtime: # Measured in minutes played on the server.
+  description: "Play the server."
+  unit: "Minutes"
+  system: 'custom'
+  custom-requirements:
+    level-1: 30
+    level-2: 60
+    level-3: 120
+    level-4: 180
+    level-5: 240
+    level-6: 300
+    level-7: 360
+    level-8: 420
+    level-9: 480
+    level-10: 540
+    level-11: 600
+    level-12: 600
+    level-13: 660
+    level-14: 660
+    level-15: 720
+    level-16: 720
+    level-17: 780
+    level-18: 780
+    level-19: 840
+    level-20: 840
+    level-21: 900
+    level-22: 900
+    level-23: 960
+    level-24: 960
+    level-25: 1020
+    level-26: 1200
+    level-27: 1440
+    level-28: 2160
+    level-29: 2880
+    level-30: 7200
+
+slaughterer:
+  description: "Kill mobs."
+  unit: "Kills"
+  system: 'expression'
+  expression: '10 * level ^ 2'
+
+tamer:
+  description: "Tame mobs."
+  unit: "Tamed"
+  system: 'expression'
+  expression: 'level ^ 1.5'
+
+woodcutter:
+  description: "Chop trees."
+  unit: "Logs"
+  system: 'expression'
+  expression: '16 * 1.25 ^ (level - 1)'

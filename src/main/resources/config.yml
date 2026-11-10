@@ -1,0 +1,11 @@
+# The method of storage. Options: SQLite, MySQL
+storage-method: SQLite
+data:
+  # The address and port of the database.
+  # - Specify as "host:port" if not default port.
+  address: localhost
+  # The name of the database to store data in.
+  database: quests
+  # Credentials for the database.
+  username: root
+  password: ''

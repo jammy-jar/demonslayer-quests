@@ -1,0 +1,35 @@
+season-3:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20
+
+adventurer-master:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20
+
+slayer:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20
+
+august-special:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20

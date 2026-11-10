@@ -1,0 +1,98 @@
+kill-players:
+  command-rewards:
+    0: # This is the ID for the command reward.
+      label: '<yellow>Give Apple' # This is the title the player will see for the command reward.
+      command: 'give <player> apple 1' # Use <player> as a placeholder for player. Automatically executed as console.
+  items: [ ] # Enter item(s) via an ID in the item-rewards Yaml file. Eg: [0, 1, 2]
+  eco: 10
+  exp: 20
+
+kill-demons:
+  command-rewards:
+    0:
+      label: '<yellow>Give Apple'
+      command: 'give <player> apple 1'
+  items: [ ]
+  eco: 100
+  exp: 110
+
+kill-demons-with-fist:
+  command-rewards:
+    0:
+      label: '<yellow>Give Apple'
+      command: 'give <player> apple 1'
+  items: [ ]
+  eco: 50
+  exp: 60
+
+kill-demons-with-bow:
+  command-rewards:
+    0:
+      label: '<yellow>Give Apple'
+      command: 'give <player> apple 1'
+  items: [ ]
+  eco: 30
+  exp: 40
+
+kill-demons-in-warzone:
+  command-rewards:
+    0:
+      label: '<yellow>Give Apple'
+      command: 'give <player> apple 1'
+  items: [ ]
+  eco: 30
+  exp: 40
+
+collect-xp-from-ores:
+  command-rewards:
+    0:
+      label: '<yellow>Give Apple'
+      command: 'give <player> apple 1'
+  items: [ ]
+  eco: 30
+  exp: 40
+
+kill-players-in-warzone:
+  command-rewards:
+    0:
+      label: '<yellow>Give Apple'
+      command: 'give <player> apple 1'
+  items: [ ]
+  eco: 30
+  exp: 40
+
+swim:
+  command-rewards:
+    0:
+      label: '<yellow>Give Apple'
+      command: 'give <player> apple 1'
+  items: [ ]
+  eco: 30
+  exp: 40
+
+fish-fish:
+  command-rewards:
+    0:
+      label: '<yellow>Give Apple'
+      command: 'give <player> apple 1'
+  items: [ ]
+  eco: 30
+  exp: 40
+
+breed-chickens:
+  command-rewards:
+    0:
+      label: '<yellow>Give Apple'
+      command: 'give <player> apple 1'
+  items: [ ]
+  eco: 30
+  exp: 40
+
+brew:
+  command-rewards:
+    0:
+      label: '<yellow>Give Apple'
+      command: 'give <player> apple 1'
+  items: [ ]
+  eco: 30
+  exp: 40

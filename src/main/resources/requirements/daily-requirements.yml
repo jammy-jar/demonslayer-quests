@@ -1,0 +1,65 @@
+kill-players: # Measured in number of kills.
+  kill-players:
+    required-amount: 5
+    unit: "Kills"
+    description: "Kill <amount> Players."
+
+kill-demons-with-fist: # Measured in number of kills.
+  kill-demons-with-fist:
+    required-amount: 5
+    unit: "Kills"
+    description: "Kill <amount> Demons with your Fist."
+
+kill-demons: # Measured in number of kills.
+  kill-demons:
+    required-amount: 5
+    unit: "Kills"
+    description: "Kill <amount> Demons."
+
+kill-demons-with-bow: # Measured in number of kills.
+  kill-demons-with-bow:
+    required-amount: 25
+    unit: "Kills"
+    description: "Kill <amount> Demons with a bow."
+
+kill-demons-in-warzone:
+  kill-demons-in-warzone:
+    required-amount: 10
+    unit: "Kills"
+    description: "Kill <amount> Demons in the Warzone."
+
+collect-xp-from-ores:
+  collect-xp-from-ores:
+    required-amount: 1500
+    unit: "XP"
+    description: "Collect <amount> <unit>."
+
+kill-players-in-warzone:
+  kill-players-in-warzone:
+    required-amount: 3
+    unit: "Kills"
+    description: "Kill <amount> Players in the Warzone."
+
+swim:
+  swim:
+    required-amount: 500
+    unit: "Blocks"
+    description: "Swim for <amount> <unit>."
+
+fish-fish:
+  fish-fish:
+    required-amount: 15
+    unit: "Fish"
+    description: "Fish for <amount> <unit>."
+
+breed-chickens:
+  breed-chickens:
+    required-amount: 20
+    unit: "Chickens"
+    description: "Breed <amount> <unit>."
+
+brew:
+  brew:
+    required-amount: 20
+    unit: "Potions"
+    description: "Brew <amount> <unit>."
